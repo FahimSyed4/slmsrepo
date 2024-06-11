@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.primary-nav {
+  background-color: rgb(9, 196, 134);
+  display: flex; /* Align links horizontally */
+  padding: 10px; /* Adjust padding according to your design */
+}
+
+.primary-nav > a {
+  padding: 10px;
+ 
+} 
+
+.primary-nav > a + a {
+  margin-left: 10px; /* Adjust margin for space between links */
+}
